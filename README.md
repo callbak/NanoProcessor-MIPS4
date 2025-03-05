@@ -92,8 +92,20 @@ Le processeur exécute un ensemble d’instructions simplifié basé sur **MIPS*
 
 ---
 
+## Fichiers de Test et Signaux de Contrôle  
+
+Le projet comprend les fichiers suivants :
+
+- **test.rom** : Fichier binaire contenant les instructions à charger dans la mémoire.
+- **test.txt** : Fichier texte décrivant les instructions à tester.
+- **control-signals.rom** : Fichier binaire contenant les signaux de contrôle associés aux instructions.
+- **control-signals.txt** : Fichier texte définissant les signaux de contrôle nécessaires à l'exécution des instructions.
+
+Ces fichiers sont utilisés pour charger les instructions et configurer les signaux de contrôle, nécessaires au bon fonctionnement de la simulation.
+
+---
+
 ## Références  
 
 - **Documentation Logisim** : [https://www.cburch.com/logisim/](https://www.cburch.com/logisim/)  
-- **Architecture MIPS** : [https://en.wikipedia.org/wiki/MIPS_architecture](https://en.wikipedia.org/wiki/MIPS_architecture)  
-- **Tutoriel MIPS** : [https://cs.brown.edu/courses/cs033/docs/mips32.pdf](https://cs.brown.edu/courses/cs033/docs/mips32.pdf)  
+- **My professor MIPS Walkthrough** : [https://www.el-kalam.com/cours/conception-hardware/architecture-mips/)  
