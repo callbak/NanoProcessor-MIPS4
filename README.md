@@ -108,4 +108,5 @@ Ces fichiers sont utilisés pour charger les instructions et configurer les sign
 ## Références  
 
 - **Documentation Logisim** : [https://www.cburch.com/logisim/](https://www.cburch.com/logisim/)  
-- **My professor MIPS Walkthrough** : [https://www.el-kalam.com/cours/conception-hardware/architecture-mips/)  
+- **My professor MIPS Walkthrough - 1** : [https://www.el-kalam.com/tutoriels/tutoriel-de-construction-dun-processeur/)
+- **My professor MIPS Walkthrough - 2** : [https://www.el-kalam.com/cours/conception-hardware/architecture-mips/)  
