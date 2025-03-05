@@ -1,0 +1,22 @@
+Random program to test all the instructions set
+
+R3 Instructions exemples :
+
+ADD R0 , R1 , R2  --->  00|0000|00|01|10  ---> 006
+SUB R3 , R0 , R1  --->  00|0001|11|00|01  ---> 071
+AND R2 , R3 , R0  --->  00|0010|10|11|00  ---> 0AC
+OR  R0 , R0 , R1  --->  00|0011|00|00|01  ---> 0C1
+
+R2 Instructions exemples :
+
+CMP R1 , R2  --->  01|0100|01|10|00  ---> 518
+NOT R0 , R3  --->  01|0101|00|11|00  ---> 54C
+SHL R1 , R1  --->  01|0110|01|01|00  ---> 594
+SHR R2 , R3  --->  01|0111|10|11|00  ---> 5EC
+
+RI Instructions exemples :
+
+LD  R0 , [5]  --->  10|1000|00|0101  ---> A05
+STR R3 , [5]  --->  10|1001|11|0101  ---> A75
+
+Note : In the beginning of execution, CAR must contain Fetch address (11000b aka 0x18)
