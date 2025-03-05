@@ -48,11 +48,11 @@ Ce processeur est capable d’exécuter des opérations arithmétiques et logiqu
 ### Prérequis  
 Avant d’exécuter la simulation, assurez-vous d’avoir :  
 - **Logisim** installé ([Téléchargement ici](https://sourceforge.net/projects/circuit/))  
-- **Le fichier du projet Logisim** (`mips_4bits.circ`)  
+- **Le fichier du projet Logisim** (`nano-mips.circ`)  
 
 ### Ouverture du projet  
 1. Lancez **Logisim**.  
-2. Cliquez sur **File > Open** et sélectionnez `mips_4bits.circ`.  
+2. Cliquez sur **File > Open** et sélectionnez `nano-mips.circ`.  
 
 ### Simulation  
 1. Activez le **signal d'horloge** (`clk`) pour exécuter les instructions.  
